@@ -1,0 +1,19 @@
+{
+  "name": "desafiolatambootstrapportafolio",
+  "version": "1.0.0",
+  "description": "Poyecto Desafio Latam aplicacion bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maaferna/DesafioLatamBootstrapPortafolio.git"
+  },
+  "author": "MParraF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maaferna/DesafioLatamBootstrapPortafolio/issues"
+  },
+  "homepage": "https://github.com/maaferna/DesafioLatamBootstrapPortafolio#readme"
+}
