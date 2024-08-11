@@ -1,3 +1,6 @@
+// Importing Bootstrap and other vendor styles
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
 // Abstracts
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
@@ -22,4 +25,5 @@
 // Themes
 @import 'themes/theme';
 
-// Vendors
+// Vendor-specific overrides or additions
+@import "vendors/bootstrap";

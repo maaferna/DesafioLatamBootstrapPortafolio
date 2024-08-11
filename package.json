@@ -4,7 +4,8 @@
   "description": "Poyecto Desafio Latam aplicacion bootstrap",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch assets/sass/main.scss assets/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/maaferna/DesafioLatamBootstrapPortafolio/issues"
   },
-  "homepage": "https://github.com/maaferna/DesafioLatamBootstrapPortafolio#readme"
+  "homepage": "https://github.com/maaferna/DesafioLatamBootstrapPortafolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
 }
