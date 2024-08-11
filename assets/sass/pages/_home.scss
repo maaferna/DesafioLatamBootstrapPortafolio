@@ -1,0 +1,50 @@
+
+.profile-section {
+    padding: $spacing-lg;
+
+    &__image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: $border-radius-large; // Ejemplo de personalización de la imagen
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: $spacing-md;
+
+        &__name {
+            font-size: $font-size-xxxl;
+            color: $custom-color-font-1; 
+            margin-bottom: $spacing-sm;
+        }
+
+        &__role {
+            font-size: $font-size-xl;
+            color: $custom-color-4; 
+            margin-bottom: $spacing-sm;
+        }
+
+        &__description {
+            font-size: $font-size-md;
+            color: $custom-color-font-3; 
+            margin-bottom: $spacing-md;
+        }
+
+        &__contact-btn {
+            @extend .btn;
+            background-color: $outer-space;
+            color: $white;
+
+            &:hover {
+                background-color: darken($custom-color-font-2, 10%);
+            }
+        }
+    }
+}
