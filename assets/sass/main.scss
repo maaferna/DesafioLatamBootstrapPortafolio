@@ -1,5 +1,6 @@
 // Importing Bootstrap and other vendor styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import '~@fortawesome/fontawesome-free/css/all.css';
 
 // Abstracts
 @import 'abstracts/variables';
@@ -19,6 +20,8 @@
 @import 'components/buttons';
 @import 'components/cards';
 @import 'components/navbar';
+@import 'components/social-media';
+@import 'components/skills';
 
 // Pages
 @import 'pages/home';
