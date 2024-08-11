@@ -12,11 +12,11 @@
         justify-content: space-around;
 
         .social-media-icon {
-            font-size: 3em;
-            transition: transform 0.3s;
+            font-size: 5em;
+            transition: transform 0.3s ease, color 0.3s ease;
 
             &:hover {
-                transform: scale(1.1);
+                transform: scale(1.2); 
             }
         }
 
@@ -27,3 +27,6 @@
         }
     }
 }
+
+
+  

@@ -4,7 +4,7 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import '~@fortawesome/fontawesome-free/css/all.css';
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11930,11 +11930,11 @@ body {
   justify-content: space-around;
 }
 .social-media-section__icons .social-media-icon {
-  font-size: 3em;
-  transition: transform 0.3s;
+  font-size: 5em;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 .social-media-section__icons .social-media-icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .social-media-section__icons p {
   margin-top: 10px;
