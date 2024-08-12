@@ -39,7 +39,7 @@ Instalación
 Clona el repositorio:
 
 bash
-git clone https://github.com/tu-usuario/mi-portafolio.git
+git clone https://github.com/maaferna/DesafioLatamBootstrapPortafolio.git
 
 Instala las dependencias:
 npm install
